@@ -11,11 +11,10 @@ enum TimeUnit {
     case seconds, minutes, hours, days
 }
 
-struct Rate {
+public struct Rate {
     let rate: Int
     let timeUnit: TimeUnit
     let timeMagnitude: Int
-    let components: DateComponents?
     
     internal func dateComponents() -> DateComponents {
         var dateComponents = DateComponents()
