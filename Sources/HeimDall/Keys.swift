@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Keys {
+    static let created = "CREATED"
+    static let requests = "REQUESTS"
+}
